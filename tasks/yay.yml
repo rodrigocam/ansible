@@ -1,0 +1,14 @@
+- name: Install yay
+  git:
+    repo: https://github.com/Jguer/yay
+    version: master
+    dest: /tmp/yay
+    clone: yes
+
+  shell:
+    cmd:
+      makepkg -si
+    chdir:
+      /tmp/yay
+
+

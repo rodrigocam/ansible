@@ -1,9 +1,20 @@
-- hosts: localhost
-  become: true
-  tasks:
-  - name: Install packages
-    apt: name={{item}}
-    with_items:
-      - htop
-      - mc
-      - tmux
+- name: Install packages
+  pacman: name={{item}}
+  with_items:
+    - nvidia
+    - xorg
+    - xorg-server
+    - i3-gaps
+    - i3status
+    - dmenu
+    - neovim
+    - redshift
+    - feh
+    - cmake
+    - make
+    - okular
+    - wget
+    - git
+    - zsh
+    - networkmanager
+    - gdm

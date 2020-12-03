@@ -1,0 +1,5 @@
+- name: Copy config files
+  copy: src=config/ dest=/home/shammyz/.config/ owner=shammyz group=shammyz mode=600
+
+- name: Copy dot files
+  copy: src=dotfiles/ dest=/home/shammyz/

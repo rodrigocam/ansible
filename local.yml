@@ -6,4 +6,8 @@
 
   tasks:
     - include: tasks/packages.yml
-    - include: tasks/
+    - include: tasks/config.yml
+    - include: tasks/yay.yml
+    - include: tasks/alacritty.yml
+    - include: tasks/yay-packages.yml
+    - include: taks/oh-my-zsh.yml
