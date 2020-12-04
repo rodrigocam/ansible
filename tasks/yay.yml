@@ -1,11 +1,12 @@
 ---
-- name: Install yay
+- name: Clone yay
   git:
     repo: https://github.com/Jguer/yay
     version: master
     dest: /tmp/yay
     clone: yes
 
+- name: Install yay 
   shell:
     cmd:
       makepkg -si
