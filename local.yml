@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: archiso
   become: true
   pre_tasks:
     - name: update repositories
