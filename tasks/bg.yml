@@ -1,0 +1,2 @@
+- name: Copy background image
+  copy: src=media/ dest=/home/shammyz/Downloads

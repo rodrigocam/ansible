@@ -20,7 +20,7 @@ font pango:monospace 8
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/i3/compton.conf"
 
 # Background
-exec_always --no-startup-id feh --bg-scale /home/shammyz/Downloads/2020-01-30_5e32edd826947_3clg8ya2kjx21.jpg
+exec_always --no-startup-id feh --bg-scale /home/shammyz/Downloads/blade_runner_bg.jpg
 
 # Night light
 exec_always --no-startup-id redshift -P -O 2500
