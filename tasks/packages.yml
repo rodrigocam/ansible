@@ -2,8 +2,7 @@
 - name: Install packages
   community.general.pacman:
     state: present
-    name: "{{item}}"
-    with_list:
+    name:
       - nvidia
       - xorg
       - xorg-server
