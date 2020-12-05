@@ -1,20 +1,23 @@
+---
 - name: Install packages
-  pacman: name={{item}}
-  with_items:
-    - nvidia
-    - xorg
-    - xorg-server
-    - i3-gaps
-    - i3status
-    - dmenu
-    - neovim
-    - redshift
-    - feh
-    - cmake
-    - make
-    - okular
-    - wget
-    - git
-    - zsh
-    - networkmanager
-    - gdm
+  community.general.pacman:
+    name: "{{item}}"
+    state: present
+    with_list:
+      - nvidia
+      - xorg
+      - xorg-server
+      - i3-gaps
+      - i3status
+      - dmenu
+      - neovim
+      - redshift
+      - feh
+      - cmake
+      - make
+      - okular
+      - wget
+      - git
+      - zsh
+      - networkmanager
+      - gdm

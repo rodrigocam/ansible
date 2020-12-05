@@ -1,3 +1,4 @@
+---
 - name: Install yay
   git:
     repo: https://github.com/Jguer/yay
