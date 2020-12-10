@@ -12,3 +12,4 @@
     - include: tasks/alacritty.yml
     - include: tasks/yay-packages.yml
     - include: taks/oh-my-zsh.yml
+    - include: tasks/doom.yml

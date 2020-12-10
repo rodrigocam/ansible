@@ -13,6 +13,12 @@ ZSH_THEME="bira"
 # Rust
 export PATH=$PATH:$HOME/.cargo/bin
 
+# Doom emacs
+export PATH=$PATH:$HOME/.emacs.d/bin/
+
+# Other paths
+export PATH=$PATH:$HOME/.local/bin
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/

@@ -1,0 +1,10 @@
+- name: Install doom emacs
+  git:
+    repo: https://github.com/hlissner/doom-emacs
+    version: master
+    dest: ~/.emacs.d
+    clone: yes
+
+  shell:
+    cmd:
+      doom install
