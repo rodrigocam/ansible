@@ -1,0 +1,70 @@
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1013,
+       "width": 817,
+       "x": 24,
+       "y": 24
+    },
+    "marks": [],
+    "name": "New Tab - Google Chrome",
+    "percent": 0.288411458333333,
+    "swallows": [
+       {
+        "class": "^Google\\-chrome$",
+        "instance": "^google\\-chrome$",
+        "title": "^New\\ Tab\\ \\-\\ Google\\ Chrome$",
+        "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 612,
+       "width": 656,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "*doom* – Doom Emacs",
+    "percent": 0.459895833333333,
+    "swallows": [
+       {
+        "class": "^Emacs$",
+        "instance": "^emacs$",
+        "title": "^\\*doom\\*\\ \\–\\ Doom\\ Emacs$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 600,
+       "width": 800,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "shammyz@wolf-7700:~",
+    "percent": 0.251692708333333,
+    "swallows": [
+       {
+        "class": "^Alacritty$",
+        "instance": "^Alacritty$",
+        "title": "^shammyz\\@wolf\\-7700\\:\\~$"
+       }
+    ],
+    "type": "con"
+}
+

@@ -21,3 +21,4 @@
       - networkmanager
       - gdm
       - emacs
+      - perl-anyevent

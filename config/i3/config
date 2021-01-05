@@ -30,6 +30,10 @@ for_window [class=".*"] border pixel 3
 gaps inner 20
 gaps outer 1
 
+# Load layout
+exec_always --no-startup-id i3-msg 'workspace 1;append_layout ~/.config/i3/workspace-1.json; exec /usr/bin/emacs; exec /usr/bin/alacritty; exec /usr/bin/google-chrome-stable'
+#exec_awlays --no-startup-id i3-msg 'workspace 1; exec /usr/bin/emacs'
+
 # Border color
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
