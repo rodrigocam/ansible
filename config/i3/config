@@ -32,7 +32,12 @@ gaps outer 1
 
 # Load layout
 exec_always --no-startup-id i3-msg 'workspace 1;append_layout ~/.config/i3/workspace-1.json; exec /usr/bin/emacs; exec /usr/bin/alacritty; exec /usr/bin/google-chrome-stable'
-#exec_awlays --no-startup-id i3-msg 'workspace 1; exec /usr/bin/emacs'
+
+# Custom hotkeys
+
+# Switch sound output hotkey 
+set $sound_switch "export ACTIVE_SINK=$(pacmd list-sinks | grep '\*' | tr -dc '0-9');export SUSPENDED_SINK=$(($ACTIVE_SINK ^ 1));$(pacmd set-default-sink $SUSPENDED_SINK)"
+bindsym F10 exec --no-startup-id $sound_switch
 
 # Border color
 
